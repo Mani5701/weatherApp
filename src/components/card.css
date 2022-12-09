@@ -1,0 +1,49 @@
+body{
+    background: #000000d0;
+}
+.container{
+    width: 25rem;
+    height: auto;
+    position: relative;
+}
+.card{
+    background: #ffff44;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    text-align: center;
+    padding: 30px 10px;
+    color: #000000d0;
+    border-radius: 20px;
+}
+.search{
+    color: #000000d0;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 15px;    
+}
+.cityinfo{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cityinfo h3{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.tempInfo{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+/* .descIcon{ */
+    /*display: flex; */
+/* } */
