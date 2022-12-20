@@ -9,7 +9,7 @@ function Card() {
 
   useEffect(()=>{
      const fetchApi = async()=>{
-        const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=ec541bcd70151f3c3f44313455ea9296`);
+        const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=`);
         let json = await response.json();
         console.log(json)
         setCity(json.main,json.weather);
